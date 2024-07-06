@@ -1,10 +1,17 @@
-let myDate= new Date()
-console.log(myDate.toString());
+// Current date and time
+let now = new Date();
+console.log(now);
 
-let todaysDate = new Date(2024,6,4,22,5,5)// 7th July,2024 10.05:05PM
-console.log(todaysDate.toLocaleString())
+// Specific date
+let specificDate = new Date('2020-01-01');
+console.log(specificDate);
 
+// Get year, month, day
+console.log(now.getFullYear()); // Output: current year
+console.log(now.getMonth() + 1); // Output: current month (0-based, so add 1)
+console.log(now.getDate()); // Output: current day
 
-const myTime = Date.now
-console.log(myTime);
-console.log(todaysDate.getTime());
+// Get hours, minutes, seconds
+console.log(now.getHours()); // Output: current hour
+console.log(now.getMinutes()); // Output: current minute
+console.log(now.getSeconds()); // Output: current second

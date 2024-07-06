@@ -1,17 +1,24 @@
-console.log(Math)
-console.log(Math.abs(-47));
-console.log(Math.round(45.54));
-console.log(Math.ceil(2.6));
-console.log(Math.floor(1.6));
-console.log(Math.max(4,54,54,54,5,4));
-console.log(Math.min(-47,54,4,54,54,5,));
+// Math object
+console.log(Math.PI); // Output: 3.141592653589793
 
+// Rounding numbers
+let num = 4.6;
+console.log(Math.round(num)); // Output: 5
 
+// Ceiling
+console.log(Math.ceil(num)); // Output: 5
 
-console.log(Math.random())
-console.log(Math.random()*10)
+// Floor
+console.log(Math.floor(num)); // Output: 4
 
+// Square root
+console.log(Math.sqrt(16)); // Output: 4
 
-const min = 100;
-const max = 200;
-console.log(Math.floor(Math.random()*(max-min+1))+min);
+// Absolute value
+console.log(Math.abs(-10)); // Output: 10
+
+// Power
+console.log(Math.pow(2, 3)); // Output: 8
+
+// Random number between 0 and 1
+console.log(Math.random());

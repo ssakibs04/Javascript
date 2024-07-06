@@ -1,23 +1,13 @@
-//stack(premitive)
-//Copy From Memory
+// Stack example: primitive types
+let a = 10;
+let b = a;
+b = 20;
+console.log(a); // Output: 10 (a is not affected by the change to b)
+console.log(b); // Output: 20
 
-let a ="dsds"
-
-let b = a
-
-a="lala"
-console.log(a);/// print dsds
-console.log(b);/// print lala
-
-
-//heap(non-premitive)
-// Take REferance  from memory
-let user1={
-    email:"sa@gmail.com",
-    username:"sakib"
-}
-let user2  = user1
-user1.email="ee@gmail.com"
-
-console.log(user1) // print  "ee@gmail.com"
-console.log(user2) // print  "ee@gmail.com"
+// Heap example: reference types
+let obj1 = { value: 10 };
+let obj2 = obj1;
+obj2.value = 20;
+console.log(obj1.value); // Output: 20 (obj1 is affected by the change to obj2)
+console.log(obj2.value); // Output: 20

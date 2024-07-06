@@ -1,9 +1,26 @@
-const amount = new Number(12351.545)
+let num1 = 10;
+let num2 = 5;
 
-console.log(amount)
-console.log(amount.toString())
-console.log(amount.toString().lengtamount)
-console.log(amount.toFixed(2))
-console.log(amount.toPrecision(7));
+// Addition
+let sum = num1 + num2;
+console.log(sum); // Output: 15
 
-console.log(amount.toLocaleString('en-bd'));
+// Subtraction
+let diff = num1 - num2;
+console.log(diff); // Output: 5
+
+// Multiplication
+let product = num1 * num2;
+console.log(product); // Output: 50
+
+// Division
+let quotient = num1 / num2;
+console.log(quotient); // Output: 2
+
+// Modulus (remainder)
+let remainder = num1 % num2;
+console.log(remainder); // Output: 0
+
+// Exponentiation
+let power = num1 ** num2;
+console.log(power); // Output: 100000

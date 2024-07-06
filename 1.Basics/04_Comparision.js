@@ -1,21 +1,23 @@
-// console.log(2 > 1);
-// console.log(2 >= 1);
-// console.log(2 < 1);
-// console.log(2 == 1);
-// console.log(2 != 1);
+// Equal to
+console.log(5 == '5'); // Output: true (only checks value, not type)
 
+// Strict equal to
+console.log(5 === '5'); // Output: false (checks both value and type)
 
-// console.log("2" > 1);
-// console.log("02" > 1);
+// Not equal to
+console.log(5 != '5'); // Output: false (only checks value, not type)
 
-console.log(null > 0);
-console.log(null == 0);
-console.log(null >= 0);
+// Strict not equal to
+console.log(5 !== '5'); // Output: true (checks both value and type)
 
-console.log(undefined == 0);
-console.log(undefined > 0);
-console.log(undefined < 0);
+// Greater than
+console.log(10 > 5); // Output: true
 
-// === 
+// Less than
+console.log(5 < 10); // Output: true
 
-console.log("2" === 2);
+// Greater than or equal to
+console.log(10 >= 10); // Output: true
+
+// Less than or equal to
+console.log(5 <= 10); // Output: true

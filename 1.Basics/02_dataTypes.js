@@ -6,35 +6,35 @@
 // 5. BigInt
 // 6.undefined
 // 7.null
-let name ="Sadman Sakib" //string
-let age = 24 // number
-let home // undefined
-let cl ="" // string
-let b= true // boolean
-console.log(typeof b);// we can see the data type 
+// String data type
+let firstName = 'saman';
+console.log(firstName); // Output: saman
 
-//object(non premitive)
-// 1. Array
-// 2. Objects
-// 3. Functions
+// Number data type
+let age = 25;
+console.log(age); // Output: 25
 
-let a={
-    name : "Sakib",
-    age : 15
-}
-console.log(a)
-a.address ="Dhaka" //add 
-console.log(a)
+// Boolean data type
+let isStudent = true;
+console.log(isStudent); // Output: true
+
+// Null data type
+let job = null;
+console.log(job); // Output: null
+
+// Undefined data type
+let car;
+console.log(car); // Output: undefined
+
+// Object data type
+let person = {
+    name: 'saman',
+    age: 25
+};
+console.log(person); // Output: { name: 'saman', age: 25 }
+
+// Array data type
+let colors = ['red', 'green', 'blue'];
+console.log(colors); // Output: ['red', 'green', 'blue']
 
 
-//Object:
-const person = {firstName:"John", lastName:"Doe"};
-console.log(person)
-
-// Array object:
-const cars = ["Saab", "Volvo", "BMW"];
-console.log(cars)
-
-// Date object:
-const date = new Date("2022-03-25");
-console.log(date)
